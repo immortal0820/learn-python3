@@ -1,0 +1,4 @@
+2018-05-16 13:29:11-use_log.py : DEBUG : Start of the program.
+2018-05-16 13:29:11-use_log.py : INFO : Ding something.
+2018-05-16 13:29:32,221-use_log.py : DEBUG : Start of the program.
+2018-05-16 13:29:32,221-use_log.py : INFO : Ding something.

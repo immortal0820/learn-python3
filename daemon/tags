@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+MyDaemon	daemon.py	/^class MyDaemon:$/;"	c
+MyTestDaemon	mytestdaemon.py	/^class MyTestDaemon(daemon.MyDaemon):$/;"	c
+__init__	daemon.py	/^	def __init__(slef, pid_file, stdin = os.devnull, stdout = os.devnull, stderr = os.devnull, verbose = 1):$/;"	m	class:MyDaemon
+__init__	mytestdaemon.py	/^	def __init__(self, save_path, stdin = os.devnull, stdout = os.devnull, stderr = os.devnull, verbose = 1):$/;"	m	class:MyTestDaemon
+atexit	daemon.py	/^import os, sys, time, atexit, signal$/;"	i
+daemon	mytestdaemon.py	/^import os, sys, daemon, time$/;"	i
+daemonize	daemon.py	/^	def daemonize(self):$/;"	m	class:MyDaemon
+del_pid	daemon.py	/^	def del_pid(self):$/;"	m	class:MyDaemon
+err_fn	mytestdaemon.py	/^	err_fn = '\/tmp\/mytest_daemon.err.log'$/;"	v
+get_pid	daemon.py	/^	def get_pid(self):$/;"	m	class:MyDaemon
+help_msg	mytestdaemon.py	/^	help_msg = 'Usage: python {0} <start|stop|status|restart>'.format(sys.argv[0])$/;"	v
+is_running	daemon.py	/^	def is_running(self):$/;"	m	class:MyDaemon
+log_fn	mytestdaemon.py	/^	log_fn = '\/tmp\/mytest_daemon.log'$/;"	v
+mydaemon	mytestdaemon.py	/^	mydaemon = MyTestDaemon(pid_fn, stderr = err_fn)$/;"	v
+os	daemon.py	/^import os, sys, time, atexit, signal$/;"	i
+os	mytestdaemon.py	/^import os, sys, daemon, time$/;"	i
+pid_fn	mytestdaemon.py	/^	pid_fn = '\/tmp\/mytest_daemon.pid'$/;"	v
+restart	daemon.py	/^	def restart(self):$/;"	m	class:MyDaemon
+run	daemon.py	/^	def run(self):$/;"	m	class:MyDaemon
+run	mytestdaemon.py	/^	def run(self):$/;"	m	class:MyTestDaemon
+signal	daemon.py	/^import os, sys, time, atexit, signal$/;"	i
+start	daemon.py	/^	def start(self):$/;"	m	class:MyDaemon
+stop	daemon.py	/^	def stop(self):$/;"	m	class:MyDaemon
+sys	daemon.py	/^import os, sys, time, atexit, signal$/;"	i
+sys	mytestdaemon.py	/^import os, sys, daemon, time$/;"	i
+time	daemon.py	/^import os, sys, time, atexit, signal$/;"	i
+time	mytestdaemon.py	/^import os, sys, daemon, time$/;"	i

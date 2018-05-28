@@ -1,0 +1,21 @@
+[mysqld]
+datadir = /usr/local/mysql/data
+socket = /var/lib/mysql/mysql.sock
+symbolic-links = 1
+log-error = /var/log/mysqld.log
+pid-file = /var/run/mysqld/mysqld.pid
+log-bin = mysql-bin
+server-id = 1
+character_set_server = utf8
+general_log = on
+innodb_file_per_table = 1
+innodb_flush_log_at_trx_commit = 1
+sync_binlog = 1
+
+[mysql]
+default-character-set = utf8
+dir = /root/testpython/practice
+
+[tb_info]
+user = /root/name/mysql
+
